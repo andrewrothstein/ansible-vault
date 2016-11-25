@@ -1,7 +1,7 @@
 andrewrothstein.vault
 =====================
 
-Install's Hashicorp's vault to /usr/local/bin
+Install's [Hashicorp's Vault](https://www.vaultproject.io/)
 
 Requirements
 ------------
