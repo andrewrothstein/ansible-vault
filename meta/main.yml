@@ -29,7 +29,7 @@ dependencies:
   - role: andrewrothstein.vault-app
     version: v2.0.0
     vault_app: vault
-    vault_app_ver: '0.6.3'
-    vault_app_checksum: sha256:8d28c4425e78a00c0f437393b7a87ff00bc3ce1aa0f10ef6538d1ba3181f1d08
+    vault_app_ver: '0.6.4'
+    vault_app_checksum: sha256:04d87dd553aed59f3fe316222217a8d8777f40115a115dac4d88fac1611c51a6
     
   
