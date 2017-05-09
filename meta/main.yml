@@ -25,28 +25,28 @@ galaxy_info:
     - hashicorp
     - vault
 
-# https://releases.hashicorp.com/vault/0.7.1/vault_0.7.1_SHA256SUMS
+# https://releases.hashicorp.com/vault/0.7.2/vault_0.7.2_SHA256SUMS
 dependencies:
   - role: andrewrothstein.vault-app
     version: v3.0.1
     vault_app: vault
-    vault_app_ver: '0.7.1'
+    vault_app_ver: '0.7.2'
     vault_app_checksums:
-      darwin_386: sha256:1209a163aba27f3c1d7baaf08f0b04c1e11527d8d4b0d5b11b0f33503a19f2ca
-      darwin_amd64: sha256:9060e4e64b76b566b8ea4f5c76df605292c2aa184b6ec6c1e1fa1afe343e371d
-      freebsd_386: sha256:ee6ee44973bb1262c17e77bf364d354fc3b2bf0c858acd49e1cd1ae57d7ff98f
-      freebsd_amd64: sha256:930a8c7c26270e2b535f8342c6e54b879b34b66049d4c1999055e278a6dea098
-      freebsd_arm: sha256:bc5bd7f522f8bc075a5811e491e981066bdb15a40c0a562dd1200a88a0e79f20
-      linux_386: sha256:761783a5a66dddbc74fd87606760379ad992cc4649611ec4ec4fb51c865676eb
-      linux_amd64: sha256:a576fe2c717ea4b5968477757196ff5308dbded4f5083c91d9e2ea824d2d6fdc
-      linux_arm: sha256:4ca79a827ddf1ac11dc1ef4d4ba0f3cd72b24e33f194df3c0bc6fe73ff07bac9
-      linux_arm64: sha256:29d425f494a658b453d64bf059201c858aad611156bd5aef77332220f4e032d4
-      netbsd_386: sha256:5ea5c8f598bb4b9e8727648911c3be3df1b6a7a84e7f333c55f0ce5854558358
-      netbsd_amd64: sha256:74eb81e9e4de46b8071bee7516f94a528cfc21612cf35fc420d25dbf5ed22d38
-      netbsd_arm: sha256:088053690e806b09beaa406dfa86148eb1643679fc4b5f32aa5be8a88f2df29c
-      openbsd_386: sha256:d718f51f1a0aa6fe16dc820b24a8a245e7f110686119c8a9fce9033c48c9327e
-      openbsd_amd64: sha256:75ea30d22b4a7a1033f56facf29339be69f71d96c848a6eca0c4aba4356cef98
-      solaris_amd64: sha256:e44daf3557aaa932e621de001608bc044a75a531fa73dc3210c55c8bfcf99b5b
-      windows_386: sha256:efdd4c064af9fe7ec5508ef07075a3c68192cd6a9ed3c68b201bbf9d5cd02112
-      windows_amd64: sha256:27f6f476650d61b1435bd8f24eca97ecabcb789e1e8a0f8388d59ac4f90517ad
+      darwin_386: sha256:1832fba41de86b551674addc87b591708456f68f3b4fe4daf007e08864e4a7ee
+      darwin_amd64: sha256:1b29fabd094ab1afbb26ec6c3df3f7c3deef5ef408bb24db94ae07a330ab5317
+      freebsd_386: sha256:3a3f9f0187b341718137d5f158387e69778b5862a6f874682ceded25208dd2a1
+      freebsd_amd64: sha256:3613f8005919265db6afa21f61d1a0847a2efbdc7dd0dd6db08b981313be67ac
+      freebsd_arm: sha256:68c67cc3fcfa77da1883eb200cf1829cbaa86f6143df698dd38e99fb4e828839
+      linux_386: sha256:f43b4d705bf96bc4ebfdeea18e6b9966851d8774c9f7bef0f06c96ffb406815a
+      linux_amd64: sha256:22575dbb8b375ece395b58650b846761dffbf5a9dc5003669cafbb8731617c39
+      linux_arm64: sha256:abf3238cf14173ced941f8ad7ee820d678a6804d59bc4d625b27001a3b6f4b1f
+      linux_arm: sha256:bbe3dc39471f95664be90e8210d15dd950a80ff0977fd51209ef5bafe7cf3862
+      netbsd_386: sha256:c969fdb6bd761dd873a6058dca858a56a9233d205893169c31cb1fa8eb7960bf
+      netbsd_amd64: sha256:332930062181e9352d8e18f04c76c5d17c84ff8f2cd53722c613e71dc6f093bc
+      netbsd_arm: sha256:2feae455ac11b136d6264c3d88453e95155df580b22eab7625bf82ffb29369a0
+      openbsd_386: sha256:2c19192abdd91d9ced1f60f79442b0c1b80169403c2d9707cd373ef50fd5ee28
+      openbsd_amd64: sha256:ea322df363cff39f58fd52f31ab6958aef873507b43331b37352d5d04590a3bc
+      solaris_amd64: sha256:c4d50396f865e29438540109e1d6081bb48342531cd1e8263e3184b0c9ecc811
+      windows_386: sha256:0ed812c3a16720058c6e92a9a552ccc5d73c6d8d6fbd89e372a19e57a7b0a185
+      windows_amd64: sha256:718139c6f4bd918d5f94cd380b7b8db4664915d8d64acba0792a31ba102025a8
   
