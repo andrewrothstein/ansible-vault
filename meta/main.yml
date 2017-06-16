@@ -16,6 +16,9 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+    - name: Debian
+      versions:
+        - jessie
     - name: Alpine
       versions:
         - all
@@ -27,9 +30,10 @@ galaxy_info:
 
 # https://releases.hashicorp.com/vault/0.7.3/vault_0.7.3_SHA256SUMS
 dependencies:
-  - role: andrewrothstein.vault-app
-    version: v3.0.1
+  - src: andrewrothstein.vault-app
+    version: v3.0.2
     vault_app: vault
+    vault_app_cleanup: '{{vault_cleanup}}'
     vault_app_ver: '0.7.3'
     vault_app_checksums:
       darwin_386: sha256:5ab070055bbcad9c59ab32d6f4479b432fcab0934fd4f251e1851bfb01b6487a
