@@ -1,6 +1,6 @@
 andrewrothstein.vault
 =====================
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-vault.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-vault)
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-vault.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-vault)
 
 Install's [Hashicorp's Vault](https://www.vaultproject.io/)
 
