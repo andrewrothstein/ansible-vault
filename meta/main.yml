@@ -31,9 +31,8 @@ galaxy_info:
 # https://releases.hashicorp.com/vault/0.9.0/vault_0.9.0_SHA256SUMS
 dependencies:
   - src: andrewrothstein.vault-app
-    version: v3.0.4
+    version: v3.0.5
     vault_app: vault
-    vault_app_cleanup: '{{vault_cleanup}}'
     vault_app_ver: '0.9.0'
     vault_app_checksums:
       darwin_386: sha256:32e132b860ca3cb024a184302d52473c57c3fb7b57df15f341a1b326494773d6
