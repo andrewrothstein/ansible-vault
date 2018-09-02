@@ -30,9 +30,9 @@ galaxy_info:
 
 dependencies:
   - role: andrewrothstein.vault-app
-    version: v4.0.1
+    version: v4.0.2
     vault_app: vault
-    vault_app_ver: '0.10.4'
+    vault_app_ver: '0.11.0'
     vault_app_checksums:
       # https://releases.hashicorp.com/vault/0.9.0/vault_0.9.0_SHA256SUMS
       '0.9.0':
@@ -254,3 +254,21 @@ dependencies:
         solaris_amd64: sha256:a7e6455f226fa78166e0545d73a50bf551f5324d75d6e631049487d7f7e1c3cc
         windows_386: sha256:60c1b549119e0963e0699ade78e05bb3183f21302aad8c02ca73fdaeff47b913
         windows_amd64: sha256:55b38c5010726c310e01fc797a62e7c466aa2f439c4d27ff3cf872b0298baeda
+      # https://releases.hashicorp.com/vault/0.11.0/vault_0.11.0_SHA256SUMS
+      '0.11.0':
+        darwin_386: sha256:91ae6dc2d85ebb52328df2a7e95d3e08de21d29657f11c17fc5032e3d29de7bd
+        darwin_amd64: sha256:3c70f82cacb105804579c7825a92d3b9dd97ad90c8ee34861290ea4ce60d1063
+        freebsd_386: sha256:e3e1bdacf9c05326efc8219a801309bbbdb8f1e6cf4970d306ef0fc4323ac0aa
+        freebsd_amd64: sha256:c24bba915ddbb9645c72a0352b1e9adfe66d18471b5892fae6ce767245aa139f
+        freebsd_arm: sha256:e29ef11651ccda15cb48fbdd799c7117eff43c0b5e3587f2cec3b74f93fbd2ba
+        linux_386: sha256:04324c2d2cd2a442b0789ca933e8cff99d7d6c73fef7718b6450dc261978a8f8
+        linux_amd64: sha256:1681579a5a158a76e37de2854307d649b75ceddd663e71580df25baae036c267
+        linux_arm64: sha256:e08a9c9a02699029cd55847a88c6bf86b5a9969ef3c99f02357b383f90857b92
+        linux_arm: sha256:20a21167d2094cfe6f109736bad1de965cbe6cf94dbf2e671a5bc7cfe537edfe
+        netbsd_386: sha256:c505e519bca0ef73d8ad6b64051ad3797a7e6ca97aa2ab65a9855f46b0ee098b
+        netbsd_amd64: sha256:1cfa77c8ad2627c3b1899e55a1817480c294b49a216347bcce90a4b0c5c151ff
+        openbsd_386: sha256:ef73648fc30179f7fc5055265ba69c3e3cedc1fc32e1ca871eb8f4ed247b299f
+        openbsd_amd64: sha256:775c653e35d017f4134a5efa3b0edd59e1563ae790f886c05f37fe854b83f50f
+        solaris_amd64: sha256:b68a15010c883cbc41e55e1487f1795ea288e3b01e15c61c6b7a14a72f8cb549
+        windows_386: sha256:8e4c9aa98856dbf28e76ede2f2f3d91a2735f2bb8170825666ad526c4fe97f68
+        windows_amd64: sha256:55a74c450474a28467ef4d50c350e075adf73ec87d92834e4756442674652949
