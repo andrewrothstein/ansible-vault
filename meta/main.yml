@@ -273,7 +273,7 @@ dependencies:
         windows_386: sha256:8e4c9aa98856dbf28e76ede2f2f3d91a2735f2bb8170825666ad526c4fe97f68
         windows_amd64: sha256:55a74c450474a28467ef4d50c350e075adf73ec87d92834e4756442674652949
       # https://releases.hashicorp.com/vault/0.11.1/vault_0.11.1_SHA256SUMS
-      '0.11.0':
+      '0.11.1':
         darwin_386: sha256:2ead8a8debb3c92d89d8e3261bbee0b21c2d62f37289fe7e7909aae36c82c1c1
         darwin_amd64: sha256:88c96123bb476d9a5c6a4517fd122872232eb6aef94ccdfea065bb8e2c9d0bd7
         freebsd_386: sha256:919d061b7c96d069a69dea0d5d5a6f99714ab6dc26212a338698ad6f392674cb
