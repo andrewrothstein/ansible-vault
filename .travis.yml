@@ -30,8 +30,7 @@ language: python
 python: 3.7
 scripts:
 - ansible-galaxy-local-deps-write
-- dcb --upstreamgroup andrewrothstein --upstreamapp docker-ansible-role --alltags
-  ${OS} --pullall --writeall --buildall --pushall
+- dcb --upstreamgroup andrewrothstein --upstreamapp docker-ansible-role --alltags ${OS} --pullall --writeall --buildall --pushall
 services:
 - docker
 sudo: required
