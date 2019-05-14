@@ -8,6 +8,8 @@
 - alpine_edge
 - archlinux_latest
 - centos_7
+- debian_jessie
+- debian_stretch
 - fedora_23
 - fedora_24
 - fedora_25
@@ -16,8 +18,6 @@
 - fedora_28
 - fedora_29
 - fedora_30
-- debian_jessie
-- debian_stretch
+- ubuntu_bionic
 - ubuntu_trusty
 - ubuntu_xenial
-- ubuntu_bionic
