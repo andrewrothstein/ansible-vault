@@ -30,7 +30,7 @@ galaxy_info:
 
 dependencies:
   - role: andrewrothstein.vault-app
-    version: v4.0.6
+    version: v4.0.7
     vault_app: vault
     vault_app_ver: '1.2.3'
     vault_app_checksums:
