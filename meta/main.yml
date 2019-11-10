@@ -32,7 +32,7 @@ dependencies:
   - role: andrewrothstein.vault-app
     version: v4.0.7
     vault_app: vault
-    vault_app_ver: '1.2.3'
+    vault_app_ver: '1.2.4'
     vault_app_checksums:
       # https://releases.hashicorp.com/vault/0.9.0/vault_0.9.0_SHA256SUMS
       '0.9.0':
@@ -538,3 +538,71 @@ dependencies:
         windows_386: sha256:32ec427882a8b42a33b95de2239113dd1db5690f9cd3176bf4057326b2900d75
         # https://releases.hashicorp.com/vault/1.2.3+ent/vault_1.2.3+ent_windows_amd64.zip
         windows_amd64: sha256:ae0c6bb4a9f851ca4deef685565ef2455d06b67825b8cb4c26f2909424eb351c
+      # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_SHA256SUMS
+      '1.2.4':
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_darwin_386.zip
+        darwin_386: sha256:24d81e781301de9b42ce9488460fab431ddefd133298d3eb1dfbe13f6529cda7
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_darwin_amd64.zip
+        darwin_amd64: sha256:9c0ae09b111df0ea34b3250c5cbc2d9480ad85c2ff89fc88a929dea18801615b
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_freebsd_386.zip
+        freebsd_386: sha256:a33fe51b175508ae377ea804c427739d6032718cd18e5d6813320c672fecf7a1
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_freebsd_amd64.zip
+        freebsd_amd64: sha256:08efaea80067af48e60768448c2efa9f2ead92f7070942bdd71cadbb35dbd969
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_freebsd_arm.zip
+        freebsd_arm: sha256:7f125175faa93f6e692c9e9379df40f66383d54fdc62ad73e2bf7ea787a36f3e
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_linux_386.zip
+        linux_386: sha256:81f15dac46faa7895f238a4962be01f2fe1c7331d5c4a0dabbd9c01f300d712e
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_linux_amd64.zip
+        linux_amd64: sha256:3c09b773030b99b063208a0433946b348f14794e46c8193e5a4d2eefaa64bac1
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_linux_arm.zip
+        linux_arm: sha256:641bca70e05f3af1885f97f1b7b533efe4c68658855a310d9968a09df0115206
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_linux_arm64.zip
+        linux_arm64: sha256:42f90444bbd2940ba7f1133b6cba25cc8ec92d0c38000d680283fa6b45ae0567
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_netbsd_386.zip
+        netbsd_386: sha256:9463a2cd8947e2f08f77bcedde853979c7e98d80d12008c8cac854e707c0f58b
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_netbsd_amd64.zip
+        netbsd_amd64: sha256:61aefa5b46df5ef36a422d94d538db520a7abcf4ec58cb394b440fc31a40ac31
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_openbsd_386.zip
+        openbsd_386: sha256:2f6b67a8caade7e8377dd9d8d638aa583e31d7d464948a1d48dc3a2c56e294ba
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_openbsd_amd64.zip
+        openbsd_amd64: sha256:d2cc3a2632e6c4aade4a20f8f16da5d4b6071079e7f0eece0336a603053ead95
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_solaris_amd64.zip
+        solaris_amd64: sha256:477acb9b0978ef0debfb1324099ed9926d65f1f1bc64a02cad7ea0132a384a1c
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_windows_386.zip
+        windows_386: sha256:ca0c2d6dcb08570e08f7e5154501ac0ce5ab14520086615b4a5767fe12daed30
+        # https://releases.hashicorp.com/vault/1.2.4/vault_1.2.4_windows_amd64.zip
+        windows_amd64: sha256:0f8931876b382ba558c5d061442d95df793a28b1c7b7a799b1ab33204670c2a8
+      # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_SHA256SUMS
+      '1.2.4+ent':
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_darwin_386.zip
+        darwin_386: sha256:7bc3faa7c25b13948fc8bcd580433263c8886ab56948edcdf5a0f5e8f80d1577
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_darwin_amd64.zip
+        darwin_amd64: sha256:e818fdf94ef61d531694d9737d7a1221691e3661856b1b807ab9ee8ab46bbd0d
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_freebsd_386.zip
+        freebsd_386: sha256:d57673db00d2cc0d873c40f96de214666b63916eff5d7c28fad2356eaa8f4466
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_freebsd_amd64.zip
+        freebsd_amd64: sha256:6edfcec017a8d799ca12be41394598fc726374cf01f7d3a1381a73ae5fff06ef
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_freebsd_arm.zip
+        freebsd_arm: sha256:d346885a3dd2cce577fd0d0f49ccb2d439bb7218f49f4a489f2a53c3f3dc80bd
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_linux_386.zip
+        linux_386: sha256:9eb0c724161726e0e38a37b75832aab0f6fc93b2c3766506ead0152c3ac047cc
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_linux_amd64.zip
+        linux_amd64: sha256:e5f57a8c7e128019621213b8e3a44534a2a1f59f8013455480815d4f2accf8e2
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_linux_arm.zip
+        linux_arm: sha256:b1da24b7c3e6c8894e3d9c0af5a57043233d7c4d56788ac86dfc54e341658f1d
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_linux_arm64.zip
+        linux_arm64: sha256:69520a2ae097796450cc868b5f65ef01fce2e7058ac06882a4c593c675708469
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_netbsd_386.zip
+        netbsd_386: sha256:4ee8fae1cb9cb92a705764c4bd6582d122abff002a51511db7380f0e0729d942
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_netbsd_amd64.zip
+        netbsd_amd64: sha256:fb3a29ce8e5aad4750812f049072351387ea1f82d5492bf5b0bf6d5e5208f9a4
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_openbsd_386.zip
+        openbsd_386: sha256:a3c5bac7f9a0d396b496e6eb200a37c8cdec6087f5e43ca198b25d1d02d89f67
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_openbsd_amd64.zip
+        openbsd_amd64: sha256:899c640a755e12cd9492e8c2836e5813fc80b945580f35e7592ff35487acf954
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_solaris_amd64.zip
+        solaris_amd64: sha256:462ca3e1b65e429186c2b06b02a92f8988ec606ed05180ee50dec4d96bfc8259
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_windows_386.zip
+        windows_386: sha256:5e6e6ba0cdc9d17f1a8373062664873d383cd1b0a9e886a74f24d7c567800a0c
+        # https://releases.hashicorp.com/vault/1.2.4+ent/vault_1.2.4+ent_windows_amd64.zip
+        windows_amd64: sha256:26f4841bd7031eacec6322613c6e19fce29ba5dbc9fd1ffcf270c2011975c2a6
