@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+set -e
+#set -x
+
 APP=vault
 DIR=~/Downloads
 MIRROR=https://releases.hashicorp.com/${APP}
@@ -48,5 +51,5 @@ dl_all () {
     dl $ver $lchecksums windows amd64
 }
 
-dl_all 1.3.4
-dl_all 1.3.4+ent
+dl_all 1.4.0
+dl_all 1.4.0+ent
