@@ -51,5 +51,5 @@ dl_all () {
     dl $ver $lchecksums windows amd64
 }
 
-dl_all 1.4.1
-dl_all 1.4.1+ent
+dl_all 1.4.2
+dl_all 1.4.2+ent
