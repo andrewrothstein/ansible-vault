@@ -1,1 +1,6 @@
 ---
+- include_role:
+    name: andrewrothstein.hashi
+  vars:
+    hashi_apps:
+      - '{{ vault_app }}'

@@ -1,2 +1,5 @@
 ---
 # defaults file for vault
+vault_app:
+  name: vault
+  ver: 1.4.2

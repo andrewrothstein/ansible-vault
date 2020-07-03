@@ -22,11 +22,7 @@ See [meta/main.yml](meta/main.yml)
 Example Playbook
 ----------------
 
-```
-- hosts: servers
-  roles:
-    - andrewrothstein.vault
-```
+See [test.yml](test.yml).
 
 License
 -------
