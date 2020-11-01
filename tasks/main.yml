@@ -3,4 +3,5 @@
     name: andrewrothstein.hashi
   vars:
     hashi_apps:
-      - '{{ vault_app }}'
+      - name: '{{ vault_name }}'
+        ver: '{{ vault_ver }}'
