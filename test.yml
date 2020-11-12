@@ -4,15 +4,20 @@
     - role: '{{ playbook_dir }}'
       vault_app:
         name: vault
-        ver: 1.5.5
+        ver: 1.6.0
         meta: ent
 - hosts: all
   roles:
     - role: '{{ playbook_dir }}'
       vault_app:
         name: vault
-        ver: 1.5.5
+        ver: 1.6.0
         meta: ent.hsm
 - hosts: all
   roles:
     - role: '{{ playbook_dir }}'
+  tasks:
+    - command: /usr/local/bin/vault --version
+      register: vault_test_output
+    - debug:
+        msg: '{{ vault_test_output.stdout }}'
