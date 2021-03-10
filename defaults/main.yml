@@ -1,4 +1,4 @@
 ---
 # defaults file for vault
 vault_name: vault
-vault_ver: 1.6.2
+vault_ver: 1.6.3
