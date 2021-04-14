@@ -3,5 +3,6 @@
     name: andrewrothstein.hashi
   vars:
     hashi_apps:
-      - name: '{{ vault_name }}'
-        ver: '{{ vault_ver }}'
+      - name: '{{ vault_app.name | default("vault") }}'
+        ver: '{{ vault_app.ver | default(vault_ver) }}'
+        meta: '{{ vault_app.meta | default("") }}'

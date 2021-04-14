@@ -4,14 +4,12 @@
     - role: '{{ playbook_dir }}'
       vault_app:
         name: vault
-        ver: 1.7.0
         meta: ent
 - hosts: all
   roles:
     - role: '{{ playbook_dir }}'
       vault_app:
         name: vault
-        ver: 1.7.0
         meta: ent.hsm
 - hosts: all
   roles:
