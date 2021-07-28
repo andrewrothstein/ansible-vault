@@ -1,6 +1,6 @@
 andrewrothstein.vault
 =====================
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-vault.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-vault)
+![Build Status](https://github.com/andrewrothstein/ansible-vault/actions/workflows/build.yml/badge.svg)
 
 Install's [Hashicorp's Vault](https://www.vaultproject.io/)
 

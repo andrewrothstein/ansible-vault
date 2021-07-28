@@ -17,20 +17,16 @@ galaxy_info:
       versions:
         - bullseye
         - buster
-        - stretch
     - name: EL
       versions:
-        - 7
         - 8
     - name: Fedora
       versions:
-        - 31
-        - 32
+        - 34
     - name: Ubuntu
       versions:
         - bionic
         - focal
-        - xenial
   galaxy_tags:
     - secret
     - key
@@ -39,4 +35,4 @@ galaxy_info:
 
 dependencies:
   - role: andrewrothstein.hashi
-    version: v0.3.1
+    version: v0.3.3
