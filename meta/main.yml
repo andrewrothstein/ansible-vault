@@ -22,8 +22,8 @@ galaxy_info:
         - 8
     - name: Fedora
       versions:
-        - 34
         - 35
+        - 36
     - name: Ubuntu
       versions:
         - bionic
@@ -35,5 +35,4 @@ galaxy_info:
     - vault
 
 dependencies:
-  - role: andrewrothstein.hashi
-    version: v0.3.4
+  - andrewrothstein.hashi
