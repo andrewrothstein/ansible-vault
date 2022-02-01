@@ -33,6 +33,8 @@ galaxy_info:
     - key
     - hashicorp
     - vault
+  role_name: vault
+  namespace: andrewrothstein
 
 dependencies:
   - andrewrothstein.hashi

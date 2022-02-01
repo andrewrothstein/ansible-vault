@@ -1,5 +1,6 @@
 ---
-- include_role:
+- name: installing vault binaries
+  include_role:
     name: andrewrothstein.hashi
   vars:
     hashi_apps:
