@@ -1,10 +1,12 @@
 ---
 galaxy_info:
   author: Andrew Rothstein
-  description: role to install all HashiCorp vault variants
   company: BlackRock
+  description: role to install vault
+  galaxy_tags:
+    - secrets
   license: MIT
-  min_ansible_version: 2.0
+  min_ansible_version: 1.2
   platforms:
     - name: Alpine
       versions:
@@ -28,10 +30,5 @@ galaxy_info:
       versions:
         - focal
         - jammy
-  tags:
-    - secret
-    - key
-    - hashicorp
-    - vault
   role_name: vault
   namespace: andrewrothstein
