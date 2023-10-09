@@ -3,8 +3,7 @@ galaxy_info:
   author: Andrew Rothstein
   description: role to install all HashiCorp vault variants
   company: BlackRock
-  license:
-    - MIT
+  license: MIT
   min_ansible_version: 2.0
   platforms:
     - name: Alpine
