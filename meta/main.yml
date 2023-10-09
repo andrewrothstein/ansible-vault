@@ -28,7 +28,7 @@ galaxy_info:
       versions:
         - focal
         - jammy
-  galaxy_tags:
+  tags:
     - secret
     - key
     - hashicorp
