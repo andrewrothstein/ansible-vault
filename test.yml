@@ -1,21 +1,28 @@
 ---
-- hosts: all
+- name: Test andrewrothstein.vault for ent
+  hosts: all
   roles:
     - role: '{{ playbook_dir }}'
       vault_app:
         name: vault
         meta: ent
-- hosts: all
+- name: Test andrewrothstein.vault for ent.hsm
+  hosts: all
   roles:
     - role: '{{ playbook_dir }}'
       vault_app:
         name: vault
         meta: ent.hsm
-- hosts: all
-  roles:
-    - role: '{{ playbook_dir }}'
+- name: Test andrewrothstein.vault standard
+  hosts: all
   tasks:
-    - command: /usr/local/bin/vault --version
+    - name: Installing andrewrothstein.vault
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'vault --version'
+      ansible.builtin.command: /usr/local/bin/vault --version
+      changed_when: false
       register: vault_test_output
-    - debug:
+    - name: Output of 'vault --version'
+      ansible.builtin.debug:
         msg: '{{ vault_test_output.stdout }}'

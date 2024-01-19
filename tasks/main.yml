@@ -1,6 +1,6 @@
 ---
-- name: installing vault binaries
-  include_role:
+- name: Installing vault binaries
+  ansible.builtin.include_role:
     name: andrewrothstein.hashi
   vars:
     hashi_apps:
